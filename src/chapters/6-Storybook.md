@@ -7,7 +7,7 @@ A guide to frontend development with Visual Studio Code.
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
-- 6. Storybook
+- Storybook
 
 ## Overview
 

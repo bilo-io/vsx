@@ -3,7 +3,7 @@
 A guide to frontend development with Visual Studio Code.
 
 - [1. Setup Environment](./1-SetupEnvironment.md)
-- 2. ES6, Typescript & NodeJS
+- ES6, Typescript & NodeJS
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
@@ -71,6 +71,6 @@ NodeJS is a Javascript runtime that runs without the browser. As such, you won't
 - lock files
   - resolving conflicts (just run `yarn`)
 
-# Further Reading:
+## Further Reading
 
 - [Appendix: Coding Standards](./appendix/CodingStandards.md)

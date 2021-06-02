@@ -6,5 +6,30 @@ A guide to frontend development with Visual Studio Code.
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
-- 5. Styling
+- Styling
 - [6. Storybook](./6-Storybook.md)
+
+## 1. Mobile First
+
+Always write your styles with Mobile first in mind.
+
+> e.g. Here the item is `hidden` on mobile, and has `display: block` from screen size `md` updwards.
+> This uses `Tailwind` described below.
+
+```jsx
+const Item = ({ children }) => (
+    <div className="hidden md:block">
+        // ...
+    </div>
+)
+```
+
+## 2. Tailwind
+
+For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/), and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
+
+> NOTE: Only in _very_ few occassions do we allow custom styles/classes.
+
+## References
+
+- [Tailwind CSS](- [TailwindCSS](https://tailwindcss.com/))

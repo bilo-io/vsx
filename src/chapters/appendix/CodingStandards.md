@@ -14,7 +14,7 @@ There are several core sections you should have covered in the [official React d
 
 ### 1. Keep components small and function-specific
 
-React makes it possible to have huge components that execute a number of tasks. But a better way to design components is to keep them small, so that one component corresponds to one function. 
+React makes it possible to have huge components that execute a number of tasks. But a better way to design components is to keep them small, so that one component corresponds to one function.
 
 Ideally, a single component should render a specific bit of your page or modify a particular behavior. There are many advantages to this:
 
@@ -181,19 +181,23 @@ const isValid =
 ```
 
 This is cleaner:
+
 ```diff
 + DO
 ```
+
 ```jsx
 const isValid = ![a,b,c,d].includes(variable)
 ```
 
 ### 2. Destructuring
+
 Aim to write less code.
 
 ```diff
 - DON'T
 ```
+
 ```jsx
 const logUser = (user) => {
     sendMail('Hello', user.firstName, user.email);
@@ -205,11 +209,13 @@ const logUser = (user) => {
     `)
 }
 ```
+
 This is cleaner:
 
 ```diff
 + DO
 ```
+
 ```jsx
 const logUser = (user) => {
     const { firstName, lastName, email } = user;
@@ -225,31 +231,36 @@ const logUser = (user) => {
 ```
 
 ### 3. Callbacks
+
 ```diff
 - DON'T: write out the callback and invocation if args are the same
 ```
+
 ```jsx
 const Button = (
-    <button onClick={() => customFuction()} />
+    <button onClick={() => customFunction()} />
 )
 ```
 
 ```diff
-+ DO: shorten the redudnant callback
++ DO: shorten the redundant callback
 ```
+
 ```jsx
 const Button = (
-    <button onClick={customFuction} />
+    <button onClick={customFunction} />
 )
 ```
 
 ### Import order
 
-Consider using a strucutred import order, such as:
-```
+Consider using a structured import order, such as:
+
+```md
 React import
 Library imports (Alphabetical order)
 Absolute imports from project (Alphabetical order)
+
 Relative imports (Alphabetical order)
 import * as
 import './<some file>.<some ext>'
@@ -268,54 +279,8 @@ import * as errorHelpers from '../utils/errorHelpers'
 import * as utils from '../utils/'
 ```
 
-## Redux
-
-Ideally for Redux, each resource should have its own loading and error states, rather than having a shared one for the reducer.
-
-```js
-const initialState = {
-    [groupName]: {
-        // ...
-        [resourceA]: {
-            loading: true,  // for loading indicator
-            error: null,    // stores error message, status, stack, etc.
-            data: []        // successful data retrieval
-        },
-        // ...
-        [resourceX]: {
-            loading: true,
-            error: null,
-            data: []
-        },
-        // ...
-    }
-}
-```
-
-## Styles
-
-### 1. Mobile First
-
-Always write your styles with Mobile first in mind.
-
-> e.g. Here the item is `hidden` on mobile, and has `display: block` from screen size `md` updwards.
-> This uses `Tailwind` described below.
-
-```jsx
-const Item = ({ children }) => (
-    <div className="hidden md:block">
-        // ...
-    </div>
-)
-```
-
-### 2. Tailwind
-
-For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/), and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
-
-> NOTE: Only in _very_ few occassions do we allow custom styles/classes.
-
 ## References
+
 - [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Medium: "Thinking in React" - A paradox statement](https://medium.com/@nimelrian/thinking-in-react-a-paradox-statement-33c19e2eb9e2)

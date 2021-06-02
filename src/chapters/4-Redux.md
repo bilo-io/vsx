@@ -5,7 +5,7 @@ A guide to frontend development with Visual Studio Code.
 - [1. Setup Environment](./1-SetupEnvironment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
-- 4. Redux
+- Redux
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
 
@@ -24,6 +24,30 @@ You can use Redux together with React, or with any other view library. It is tin
 - Provider (store)
 - Reducers
 - Actions
+
+### Redux files
+
+Ideally for Redux, each resource should have its own loading and error states, rather than having a shared one for the reducer.
+
+```js
+const initialState = {
+    [groupName]: {
+        // ...
+        [resourceA]: {
+            loading: true,  // for loading indicator
+            error: null,    // stores error message, status, stack, etc.
+            data: []        // successful data retrieval
+        },
+        // ...
+        [resourceX]: {
+            loading: true,
+            error: null,
+            data: []
+        },
+        // ...
+    }
+}
+```
 
 ## Redux DevTools
 
