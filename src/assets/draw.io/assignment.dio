@@ -1,0 +1,28 @@
+<mxfile>
+    <diagram id="gwq2sGt6Q_4jOk_L0-la" name="Page-1">
+        <mxGraphModel dx="824" dy="859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;&lt;b&gt;Search&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;br&gt;- fetch crypto currencies&lt;br&gt;- filter crypto currencies&lt;br&gt;- toggle between list &amp;amp; grid&lt;br&gt;- select item&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="41" y="240" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;u&gt;&lt;b&gt;Detail View&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- show more info&lt;/span&gt;&lt;br style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- show graph&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;- change time period&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="331" y="240" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Bonus: Graph compare" style="shape=display;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="250" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Bonus: Themes" style="shape=display;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="320" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Bonus: Tests" style="shape=display;whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="390" width="180" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
