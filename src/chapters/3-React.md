@@ -1,4 +1,4 @@
-# 2. React
+# 3. React
 
 A guide to frontend development with Visual Studio Code.
 

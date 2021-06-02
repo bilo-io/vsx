@@ -1,4 +1,4 @@
-# Redux
+# 3. Redux
 
 A guide to frontend development with Visual Studio Code.
 
@@ -52,9 +52,18 @@ const initialState = {
 ## Redux DevTools
 
 [Download Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for your browser
-- ![Insert Redux DevTools screenshot]()
+
+- ![redux-devtools](https://adamfolwarczny.com/img/github/redux-devtools-app-demo.png)
 
 ## Redux Toolkit
 
 - Motivation
 - Code Sample
+
+```
+
+```
+
+## References:
+
+- [Redux Toolkit](https://redux-toolkit.js.org/)
