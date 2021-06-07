@@ -17,6 +17,16 @@
 style="height: 10rem; width: auto"
 src="https://miro.medium.com/max/1600/0*-nmYaj92AwNXrWct.png"
 />
+
 ## Overview
 
-What is storybook?
+What is [Storybook](https://storybook.js.org/)?
+
+> - _"Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation."_
+> - _"Storybook provides a sandbox to build UIs in isolation so you can develop hard-to-reach states and edge cases."_
+> - _"Stories are a pragmatic, reproducible way to keep track of UI edge cases. Write stories once then reuse them to power automated tests."_
+
+<video width="320" height="240" controls>
+    <source src="https://storybook.js.org/videos/storybook-workflow-build-optimized-lg.mp4"
+    type="video/mp4">
+</video>

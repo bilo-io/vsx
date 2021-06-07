@@ -97,11 +97,11 @@ Redux Toolkit includes these APIs:
 ### Getting Started
 
 > If you want a more comprehensive guide to understand redux toolkit, see here
+
 - [Redux Toolkit Quick Start](https://redux-toolkit.js.org/tutorials/quick-start)
 - [Redux Toolkit with Typescript](https://redux-toolkit.js.org/usage/usage-with-typescript)
 
 > NOTE: Redux Toolkit is already written in TypeScript, so its TS type definitions are built in... so you won't have to `yarn add @types/@redux/toolkit` or anything like that
-
 
 ```jsx
 import { createSlice } from '@reduxjs/toolkit';
