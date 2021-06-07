@@ -112,7 +112,7 @@ To keep things simple create each page with the basic content, whilst listing th
 And then wrap each page with the `<Page />` component:
 ![react-page-usage](../../assets/assessment/react-page-usage.png)
 
-### Routing
+## Step 3. Routing
 
 For now, this is fine, but we'll need to add a router to navigate between pages. Run the following in your terminal:
 
@@ -135,6 +135,8 @@ yarn add @types/react-router @types/react-router-dom
 > Next we will modify the App entry point to cater for all the different pages by implementing `react-router`.
 
 ![react-router](../../assets/assessment/react-router.png)
+
+Explore the [official React Router Documentation](https://reactrouter.com/web/example/basic)
 
 ### Navbar
 
