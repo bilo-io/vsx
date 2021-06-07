@@ -6,12 +6,13 @@
 > - Try out the [Assessment](./guides/CryptoCharts.md)
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
-- Setup Environment
+- `1. Setup Environment`
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
+- [7. Testing](./7-Testing.md)
 
 ![vs-code-logo](https://www.tmssoftware.com/images/visualstudiocodelogo.png)
 

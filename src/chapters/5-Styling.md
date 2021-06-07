@@ -10,8 +10,9 @@
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
-- Styling
+- `5. Styling`
 - [6. Storybook](./6-Storybook.md)
+- [7. Testing](./7-Testing.md)
 
 ## 1. Tailwind
 

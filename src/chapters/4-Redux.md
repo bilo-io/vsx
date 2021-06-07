@@ -1,4 +1,4 @@
-# 3. Redux
+# 4. Redux
 
 > A guide to frontend development with Visual Studio Code.
 >
@@ -9,9 +9,10 @@
 - [1. Setup Environment](./1-SetupEnvironment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
-- Redux
+- `4. Redux`
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
+- [7. Testing](./7-Testing.md)
 
 <img
 style="height: 10rem; width: auto"

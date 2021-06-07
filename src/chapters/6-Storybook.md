@@ -11,7 +11,8 @@
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
-- Storybook
+- `6. Storybook`
+- [7. Testing](./7-Testing.md)
 
 <img
 style="height: 10rem; width: auto"

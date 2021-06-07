@@ -8,10 +8,11 @@
 
 - [1. Setup Environment](./1-SetupEnvironment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
-- React
+- `3. React`
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
+- [7. Testing](./7-Testing.md)
 
 <img
 style="height: 10rem; width: auto"
@@ -21,9 +22,12 @@ src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react-logo.png"
 ## Overview
 
 React is a library responsible for the view layer of a web application. It can be combined with various other libraries to create a fully-fledged web application.
-> NOTE: In contrast to a library, a framework such as [Angular](https://angular.io/) is self-contained and opinionated. This means there is less thinking required on how to accomplish certain things in favour of ways which are predefined by the framework.
+> NOTE:
+>
+> - [Why use React?](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html)
+> - In contrast to a library, a framework such as [Angular](https://angular.io/) is self-contained and opinionated. This means there is less thinking required on how to accomplish certain things in favour of ways which are predefined by the framework.
 
-A basic React component could look like this, using `JSX` syntax:
+A basic React component for a navigation bar could look like this, using `JSX` syntax:
 
 ```jsx
 import React from 'react'

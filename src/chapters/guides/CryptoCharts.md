@@ -42,7 +42,7 @@ Create a Navbar which:
 - is a sidebar (for desktop and tablet screen sizes)
 - is a bottom tab bar (for mobile screen sizes)
 
-## Resources
+### Resources
 
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
@@ -52,16 +52,13 @@ Create a Navbar which:
 
 > A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 
-- [CoinGecko Dashboard](https://www.coingecko.com/en)
-- [CoinGecko API](https://www.coingecko.com/api/documentations/v3)
+- [CoinGecko Dashboard](https://www.coingecko.com/en) & [CoinGecko API](https://www.coingecko.com/api/documentations/v3)
 
 > Get crypto currency prices, market overview, and analysis such as crypto market cap, trading volume, and more.
 
 - [Highcharts React](https://www.npmjs.com/package/highcharts-react-official)
 
 > A library for charting written in pure JavaScript, first released in 2009.
-
-## Guide
 
 ## Step 1: Initialize project
 
@@ -89,8 +86,9 @@ npx create-react-app my-app --template typescript
 
 Create a `src/pages` directory to keep all the different pages your webapp renders.
 
-> NOTE: We are still building a single page application (SPA) as there is only a single `index.html` file, which dynamically re-renders content.
+> NOTE:
 >
+> - We are still building a single page application (SPA) as there is only a single `index.html` file, which dynamically re-renders content.
 > - [Read more on SPAs here](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
 
 The pages to be creatd are:
@@ -103,12 +101,13 @@ Each page should have the following to files (`index.tsx` and `{pageName}.tsx`):
 
 ![pages](../../assets/assessment/2-pages.png)
 
-To keep things simple create each page with the basic content, whilst listing the page name, so you can differentiate them.
-
-But first, you want to have common behaviour for the page, such as it filling out the available space, and being able to scroll.
+There are usually multiple different pages in the application. So first, you want to have common behaviour for the page, such as it filling out the available space, and being able to scroll.
 
 For that you should create a `Page.tsx` component in the `src/components/` folder:
 ![react-page](../../assets/assessment/react-page.png)
+
+
+To keep things simple create each page with the basic content, whilst listing the page name, so you can differentiate them.
 
 And then wrap each page with the `<Page />` component:
 ![react-page-usage](../../assets/assessment/react-page-usage.png)

@@ -7,11 +7,12 @@
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
 - [1. Setup Environment](./1-SetupEnvironment.md)
-- ES6, Typescript & NodeJS
+- `2. ES6, Typescript & NodeJS`
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
+- [7. Testing](./7-Testing.md)
 
 <img
 style="height: 10rem; width: auto"

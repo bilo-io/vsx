@@ -11,7 +11,7 @@
 - [4. Redux](./src/chapters/4-Redux.md)
 - [5. Styling](./src/chapters/5-Styling.md)
 - [6. Storybook](./src/chapters/6-Storybook.md)
-- [7. Assessment](./src/chapters/assessments/CryptoCharts.md)
+- [7. Testing](./src/chapters/7-Testing.md)
 
 > The library of choice is React.js, created by Facebook.
 
