@@ -113,7 +113,7 @@ const App = () => (
 
 ### 6. Avoid the boolean Trap
 
-When it comes to the primitive booleans to determine output value of something you have to be careful. Consider the `<Typraphy />` component takes these as text options: `'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'title', 'subheading'`.
+When it comes to the primitive booleans to determine output value of something you have to be careful. Consider the `<Typography />` component takes these as text options: `'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'title', 'subheading'`.
 
 Knowing in which priority these would be applied by using booleans would not be certain, unless you look at the source code of the Typography component.
 
@@ -139,7 +139,7 @@ Rather specify one explicitly
 </Typography>
 ```
 
-### 7. Componentize Duplicate Elements
+### 7. "Componentize" Duplicate Elements
 
 This just means _"converting duplicate elements to their own reusable component"._ If you don't do this you're putting a burden on your teammates in the future, because they might be confused having to edit them, potentially causing frustration of having to update duplicate elements to accomplish a single change.
 
@@ -176,7 +176,7 @@ This is cleaner, and much more maintainable:
 // default behaviour is () => history.goBack()
 <BackButton />
 
-// custom behavkour as 'onClick' prop
+// custom behaviour as 'onClick' prop
 <BackButton onClick={() => window.location.reload() }/>
 ```
 

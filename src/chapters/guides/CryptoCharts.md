@@ -72,7 +72,7 @@ Initialize the project with the terminal command:
 npx create-react-app my-app --template typescript
 ```
 
-> Once initialised, you should see the following:
+> Once initialized, you should see the following:
 >
 ![project-init](../../assets/assessment/1-project-init.png)
 

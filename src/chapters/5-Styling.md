@@ -17,7 +17,7 @@
 
 For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/), and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
 
-> NOTE: Only in _very_ few occassions do we allow custom styles/classes.
+> NOTE: Only in _very_ few occasions do we allow custom styles/classes.
 
 ## 2. Mobile First
 
