@@ -1,2 +1,5 @@
-.history
 node_modules/
+.history
+.dependencygraph
+
+yarn-error.log
