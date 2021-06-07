@@ -1,8 +1,15 @@
 # Onboarding Exercise
 
+> A guide to frontend development with Visual Studio Code.
+>
+> - Back to the [README](../../../README.md)
+> - Also check out [Appendices](../appendix/CodingStandards.md)
+
 ## Crypto Charts
 
-The purpose of this guide is to get a basic understanding of how our technologies work and fit together.
+The purpose of this guide is to get a basic understanding of how our technologies work and fit together. To try and structure your learning you will be creating an app similar to this one:
+
+![app-preview](https://user-images.githubusercontent.com/3089012/120917236-5fdf2200-c6ae-11eb-89ea-55fb3eee2678.gif)
 
 At the end of this exercise you will have covered:
 
@@ -48,7 +55,7 @@ Create a Navbar which:
 - [CoinGecko Dashboard](https://www.coingecko.com/en)
 - [CoinGecko API](https://www.coingecko.com/api/documentations/v3)
 
-> Get cryptocurrency prices, market overview, and analysis such as crypto market cap, trading volume, and more.
+> Get crypto currency prices, market overview, and analysis such as crypto market cap, trading volume, and more.
 
 - [Highcharts React](https://www.npmjs.com/package/highcharts-react-official)
 
@@ -159,7 +166,13 @@ For now we will just be pulling basic data of all coins into the explore page.
 
 ![react-axios](../../assets/assessment/react-axios.png)
 
+Ideally you should be able to see something like this in your browser window now.
+
+![ui-result](../../assets/assessment/ui-result.png)
+
 #### Adding an Icon Font
+
+You might wonder how we got those icons into the side bar? Just use an iconfont to make things clean and simple.
 
 - [Why and how to use an icon font?](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi88MOSg4bxAhVFyqQKHadqApwQtwIwDHoECAIQAw&url=https%3A%2F%2Fvanseodesign.com%2Fweb-design%2Ficon-fonts%2F&usg=AOvVaw20pkUUhWl_HT7khSojuexU)
 
@@ -173,9 +186,17 @@ Choose of the public [FontAwesome CDN urls](https://cdnjs.com/libraries/font-awe
 </head>
 ```
 
+Ideally, install the React wrapper for [FontAwesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2).
+
 ```jsx
 import FAIcon from 'react-fontawesome'
 
 // usage
 <FAIcon name="star" />
 ```
+
+### Styling
+
+Either style your app to resemble what you saw in the screenshot above, or come up with your own look and feel (or just copy one from somewhere online).
+
+In this section we will be adding TailwindCSS to make it easier to maintain.

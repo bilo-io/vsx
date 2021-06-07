@@ -1,6 +1,10 @@
 # 2. ES6, TypeScript & Node
 
-A guide to frontend development with Visual Studio Code.
+> A guide to frontend development with Visual Studio Code.
+>
+> - Back to the [README](../../README.md)
+> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Also check out [Appendices](./appendix/CodingStandards.md)
 
 - [1. Setup Environment](./1-SetupEnvironment.md)
 - ES6, Typescript & NodeJS
@@ -9,9 +13,14 @@ A guide to frontend development with Visual Studio Code.
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
 
+<img
+style="height: 10rem; width: auto"
+src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.png?1442839695"
+/>
+
 ## ES6 (Javascript)
 
-Javascirpt is an implementation of ECMA script, which received many new updates since ES6.
+Javascript is an implementation of ECMA script, which received many new updates since ES6.
 
 Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6features)
 
@@ -44,7 +53,7 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
 
 Microsoft created a superset of Javascript, which adds static type checking to the language, making it more predictable and thus safer to code.
 
-> A similar alternative is [FlowType]()
+> A similar alternative is [FlowType](https://flow.org/)
 
 - [Typescript Language Guide](https://www.typescriptlang.org/)
 - [Typescript React Cheat Sheet](https://github.com/typescript-cheatsheets/react)
@@ -57,7 +66,7 @@ And some online Code Sandboxes for Typescript and React:
 
 ## NodeJS
 
-NodeJS is a Javascript runtime that runs without the browser. As such, you won't have access to browser specfiic things like `window`.
+NodeJS is a Javascript runtime that runs without the browser. As such, you won't have access to browser specific things like `window`.
 
 - npm / yarn
 - node scripts

@@ -1,5 +1,10 @@
 # Coding Standards
 
+> A guide to frontend development with Visual Studio Code.
+>
+> - Back to the [README](../../../README.md)
+> - Try out the [Assessment](../guides/CryptoCharts.md)
+
 Writing clean, maintainable and re-usable code is very important for large (and even small) software projects.
 This section combines various sources to highlight important aspects we'd like to adhere to when writing code.
 
@@ -8,6 +13,7 @@ This section combines various sources to highlight important aspects we'd like t
 ### Best Practices
 
 There are several core sections you should have covered in the [official React documentation](https://reactjs.org/docs/getting-started.html):
+
 - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 - [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
 - [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
@@ -34,6 +40,7 @@ By sticking to the rule of `one function = one component`, you can improve the r
 - On the other hand, if any component becomes huge, unwieldy and difficult to maintain, it’s better to break it up into as many smaller components as required.
 
 ### 3. Consolidate duplicate code – DRY your code
+
 A common rule for all code is to `keep it as brief and concise as possible.`
 
 It’s no different here too, since React best practices also instruct you to keep code brief and precise. One way to do this is to avoid duplication – Don’t Repeat Yourself (DRY).
@@ -49,6 +56,7 @@ For people unfamiliar with your code, or React, name functions in dull areas. E.
 ```diff
 - DON'T
 ```
+
 ```jsx
 React.useEffect(() => {
   setMounted(true)
@@ -62,6 +70,7 @@ React.useEffect(() => {
 ```diff
 + DO
 ```
+
 ```jsx
 React.useEffect(() => {
   setMounted(true)
@@ -73,11 +82,13 @@ React.useEffect(() => {
 ```
 
 ### 5. Use \</> over \<Fragment />
+
 > It just reduces the code debt.
 
 ```diff
 - DON'T
 ```
+
 ```jsx
 const App = () => (
     <React.Fragment>
@@ -90,6 +101,7 @@ const App = () => (
 ```diff
 + DO
 ```
+
 ```jsx
 const App = () => (
     <>
@@ -101,14 +113,14 @@ const App = () => (
 
 ### 6. Avoid the boolean Trap
 
-When it comes to the primitive booleans to determine output value of something you have to be careful. Consider the `<Typraphy />` component takes these as text options: `'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'title', 'subheading'`. 
+When it comes to the primitive booleans to determine output value of something you have to be careful. Consider the `<Typraphy />` component takes these as text options: `'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'title', 'subheading'`.
 
 Knowing in which priority these would be applied by using booleans would not be certain, unless you look at the source code of the Typography component.
-
 
 ```diff
 - DON'T
 ```
+
 ```jsx
 <Typography color="primary" align="center" subheading title>
     Welcome to my bio
@@ -116,9 +128,11 @@ Knowing in which priority these would be applied by using booleans would not be 
 ```
 
 Rather specify one explicitly
+
 ```diff
 + DO
 ```
+
 ```jsx
 <Typography color="primary" align="center" variant="title">
     Welcome to my bio
@@ -131,10 +145,12 @@ This just means _"converting duplicate elements to their own reusable component"
 
 > E.g. imagine the scenario of a back button that is responsive showing the `'Back'` and a left arrow on desktop, vs only an arrow on mobile. If this button exists in more than one page it would be redundant to rewrite it for each use case. Even in the case that it might behave slightly differently in each use case, then you could just pass that behaviour down as a prop from the parent component.
 
-e.g. 
+e.g.
+
 ```diff
 - DON'T => reimplement existing code unnecessarily
 ```
+
 ```jsx
 const onClick = // ... custom back button behaviour
 
@@ -147,13 +163,15 @@ const backButton = <button
     <span className="hidden lg:block py-4">{backMessages.backButtonText}</span>
 </button>
 ```
-Aim to write less code. Imagine having an implementation like this for each instance of the back button ... and then the design changes... And you'd have to update each and every single implementation of this component. 
+
+Aim to write less code. Imagine having an implementation like this for each instance of the back button ... and then the design changes... And you'd have to update each and every single implementation of this component.
 
 This is cleaner, and much more maintainable:
 
 ```diff
 + DO
 ```
+
 ```jsx
 // default behaviour is () => history.goBack()
 <BackButton />
@@ -161,6 +179,7 @@ This is cleaner, and much more maintainable:
 // custom behavkour as 'onClick' prop
 <BackButton onClick={() => window.location.reload() }/>
 ```
+
 ## Javascript / TypeScript
 
 This section provides examples of recommended, clean code.
@@ -172,10 +191,11 @@ Aim to write less code.
 ```diff
 - DON'T
 ```
+
 ```jsx
-const isValid = 
-    variable !== a && 
-    variable !== b && 
+const isValid =
+    variable !== a &&
+    variable !== b &&
     variable !== c &&
     variable !== d;
 ```

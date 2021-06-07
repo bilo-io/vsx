@@ -1,6 +1,10 @@
 # 3. Redux
 
-A guide to frontend development with Visual Studio Code.
+> A guide to frontend development with Visual Studio Code.
+>
+> - Back to the [README](../../README.md)
+> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Also check out [Appendices](./appendix/CodingStandards.md)
 
 - [1. Setup Environment](./1-SetupEnvironment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
@@ -8,6 +12,11 @@ A guide to frontend development with Visual Studio Code.
 - Redux
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
+
+<img
+style="height: 10rem; width: auto"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1200px-Redux_Logo.png"
+/>
 
 ## Overview
 
@@ -77,10 +86,10 @@ Redux Toolkit includes these APIs:
 
 |Function|Info|
 |:-|:-|
-|`configureStore()`:| wraps createStore to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk by default, and enables use of the Redux DevTools Extension.|
-|`createReducer()`:| that lets you supply a lookup table of action types to case reducer functions, rather than writing switch statements. In addition, it automatically uses the immer library to let you write simpler immutable updates with normal mutative code, like state.todos[3].completed = true.|
-|`createAction()`:| generates an action creator function for the given action type string. The function itself has toString() defined, so that it can be used in place of the type constant.|
-|`createSlice()`:| accepts an object of reducer functions, a slice name, and an initial state value, and automatically generates a slice reducer with corresponding action creators and action types.|
+|`configureStore`:| wraps createStore to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk by default, and enables use of the Redux DevTools Extension.|
+|`createReducer`:| that lets you supply a lookup table of action types to case reducer functions, rather than writing switch statements. In addition, it automatically uses the immer library to let you write simpler immutable updates with normal mutative code, like state.todos[3].completed = true.|
+|`createAction`:| generates an action creator function for the given action type string. The function itself has toString() defined, so that it can be used in place of the type constant.|
+|`createSlice`:| accepts an object of reducer functions, a slice name, and an initial state value, and automatically generates a slice reducer with corresponding action creators and action types.|
 |`createAsyncThunk`:| accepts an action type string and a function that returns a promise, and generates a thunk that dispatches pending/fulfilled/rejected action types based on that promise.|
 |`createEntityAdapter`:| generates a set of reusable reducers and selectors to manage normalized data in the store|
 |`createSelector`| utility from the Reselect library, re-exported for ease of use.|
@@ -122,6 +131,6 @@ export const slice = createSlice({
 export const { increment, decrement, incrementByAmount } = slice.actions;
 ```
 
-### References:
+### References
 
 - [Redux Toolkit](https://redux-toolkit.js.org/)
