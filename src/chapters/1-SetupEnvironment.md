@@ -2,7 +2,7 @@
 
 A guide to frontend development with Visual Studio Code.
 
-- 1. Setup Environment
+- Setup Environment
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
@@ -22,9 +22,9 @@ If you have not installed a preferred editor yet, download [Visual Studio Code](
 
 #### General
 
-- [vscode-essentials]()
-- [node-essentials]()
-- [tabnine Autocomplete AI]()
+- [VSCode Essentials](https://marketplace.visualstudio.com/items?itemName=jabacchetta.vscode-essentials)
+- [Node Essentials](https://marketplace.visualstudio.com/items?itemName=afractal.node-essentials)
+- [Tabnine Autocomplete AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 - [color-highlight]()
 - [Settings Sync]()
 

@@ -8,4 +8,20 @@ A guide to frontend development with Visual Studio Code.
 - [4. Redux](./src/chapters/4-Redux.md)
 - [5. Styling](./src/chapters/5-Styling.md)
 - [6. Storybook](./src/chapters/6-Storybook.md)
-- [7. Assessment](./src/chapters/7-Assessment.md)
+- [7. Assessment](./src/chparts/assessments/CryptoCharts.md)
+
+## Structure
+
+Throughout the entire tutorial we will be building a basic React application to explore and compare crypto currencies, using a public API, namely CoinGecko.
+
+You will cover how to:
+
+- setup a Node repo
+- work with Git
+- create a React web application
+- fetch data from an API
+- visualize numeric data with Charts
+- work with application state management tools:
+  - localStorage
+  - React component state
+  - Redux global state

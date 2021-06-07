@@ -11,9 +11,9 @@ A guide to frontend development with Visual Studio Code.
 
 ## 1. Mobile First
 
-Always write your styles with Mobile first in mind.
+Always write your styles with mobile-first in mind.
 
-> e.g. Here the item is `hidden` on mobile, and has `display: block` from screen size `md` updwards.
+> e.g. Here the item is `hidden` on mobile, and has `display: block` from screen size `md` upwards.
 > This uses `Tailwind` described below.
 
 ```jsx
@@ -32,4 +32,4 @@ For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/),
 
 ## References
 
-- [Tailwind CSS](- [TailwindCSS](https://tailwindcss.com/))
+- [Tailwind CSS](https://tailwindcss.com/)

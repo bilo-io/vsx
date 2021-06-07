@@ -35,7 +35,7 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
 - Array functions:
   - `forEach`
   - `map`,
-  - `reduce`, `filter`, `find`,
+  - `reduce`, `filter`, `find`,`some`,`every`
   - `findIndex`
   - `10_000` notation for numbers
   - `promises` and `async` / `await`
@@ -46,7 +46,7 @@ Microsoft created a superset of Javascript, which adds static type checking to t
 
 > A similar alternative is [FlowType]()
 
-- [Typescript Language Guide]()
+- [Typescript Language Guide](https://www.typescriptlang.org/)
 - [Typescript React Cheat Sheet](https://github.com/typescript-cheatsheets/react)
 
 And some online Code Sandboxes for Typescript and React:
