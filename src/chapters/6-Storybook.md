@@ -16,7 +16,7 @@
 
 <img
 style="height: 10rem; width: auto"
-src="https://miro.medium.com/max/1600/0*-nmYaj92AwNXrWct.png"
+src="https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm.png"
 />
 
 ## Overview

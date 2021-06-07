@@ -14,8 +14,14 @@
 - [6. Storybook](./6-Storybook.md)
 - [7. Testing](./7-Testing.md)
 
+<img
+style="height: 10rem; width: auto"
+src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+/>
+
 ## 1. Tailwind
 
+Tailwind CSS is a utility-first CSS framework packed with classes like flex, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
 For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/), and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
 
 > NOTE: Only in _very_ few occasions do we allow custom styles/classes.
@@ -30,6 +36,16 @@ Always write your styles with mobile-first in mind.
 ```jsx
 const Item = ({ children }) => (
     <div className="hidden md:block">
+        // ...
+    </div>
+)
+```
+
+Another example where you set the div on different resolutions (e.g. mobile is full width, medium screens are half width, and on large+ screens the width is 1/3 of the max width).
+
+```jsx
+const AnotherItem = ({ children }) => (
+    <div className="w-full sm:w-1/2 lg:w-1/3">
         // ...
     </div>
 )

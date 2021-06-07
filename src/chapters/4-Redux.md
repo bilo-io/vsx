@@ -16,7 +16,7 @@
 
 <img
 style="height: 10rem; width: auto"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/1200px-Redux_Logo.png"
+src="https://cdn.freebiesupply.com/logos/large/2x/redux-logo-png-transparent.png"
 />
 
 ## Overview
@@ -31,13 +31,35 @@ You can use Redux together with React, or with any other view library. It is tin
 
 ## Integration With React
 
-- Provider (store)
-- Reducers
-- Actions
+- [Provider](https://react-redux.js.org/api/provider)
+
+> The `<Provider>` component makes the Redux store available to any nested components that need to access the Redux store.
+>
+> Since any React component in a React Redux app can be connected to the store, most applications will render a `<Provider>` at the top level, with the entire app’s component tree inside of it.
+>
+> The Hooks and connect APIs can then access the provided store instance via React's Context mechanism.
+>
+> - Reducers
+> - Actions
 
 ### Redux files
 
 Ideally for Redux, each resource should have its own loading and error states, rather than having a shared one for the reducer.
+
+To make the store avaiable to the entire application, wrap it at the top level similar to:
+
+```jsx
+const store = createStore(rootReducer)
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+)
+```
+
+> And an example of the `slice` with Redux Toolkit would be something like:
 
 ```js
 const initialState = {
@@ -61,9 +83,9 @@ const initialState = {
 
 ## Redux DevTools
 
-[Download Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for your browser
+[Download Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for your browser to make debugging easier.
 
-- ![redux-devtools](https://adamfolwarczny.com/img/github/redux-devtools-app-demo.png)
+![redux-devtools](https://adamfolwarczny.com/img/github/redux-devtools-app-demo.png)
 
 ## Redux Toolkit
 

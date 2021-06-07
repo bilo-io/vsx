@@ -16,7 +16,7 @@
 
 <img
 style="height: 10rem; width: auto"
-src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react-logo.png"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
 />
 
 ## Overview
