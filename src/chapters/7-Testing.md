@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="https://api.nuget.org/v3-flatcontainer/vsunittesthelpers/1.0.0/icon"
+/>
+
 # 7. Testing
 
 > A guide to frontend development with Visual Studio Code.

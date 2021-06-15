@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="https://cdn.iconscout.com/icon/free/png-256/react-226053.png"
+/>
+
 # 3. React
 
 > A guide to frontend development with Visual Studio Code.
@@ -16,11 +22,6 @@
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
-
-<img
-style="height: 10rem; width: auto"
-src="https://cdn.iconscout.com/icon/free/png-256/react-226053.png"
-/>
 
 ## Overview
 
@@ -108,7 +109,7 @@ Also make understand how these hooks work:
 <br />
 <br />
 
-[Next Part: 4. React](./4-Redux.md)
+[Next Part: 4. Redux](./4-Redux.md)
 
 <br />
 <br />

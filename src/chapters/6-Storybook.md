@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm.png"
+/>
+
 # 6. Storybook
 
 > A guide to frontend development with Visual Studio Code.
@@ -16,12 +22,6 @@
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
-
-<img
-style="height: 256px"
-height="256"
-src="https://pbs.twimg.com/profile_images/1100804485616566273/sOct-Txm.png"
-/>
 
 ## Overview
 

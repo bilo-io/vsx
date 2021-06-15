@@ -1,3 +1,9 @@
+<img
+style="width: 256px"
+width="256"
+src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.png?1442839695"
+/>
+
 # 2. ES6, TypeScript & Node
 
 > A guide to frontend development with Visual Studio Code.
@@ -16,12 +22,6 @@
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
-
-<img
-style="width: 256px"
-width="256"
-src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.png?1442839695"
-/>
 
 ## ES6 (Javascript)
 

@@ -1,3 +1,8 @@
+<img
+style="height: 256px; width: auto"
+src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
+/>
+
 # 4. Redux
 
 > A guide to frontend development with Visual Studio Code.
@@ -16,11 +21,6 @@
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
-
-<img
-style="height: 10rem; width: auto"
-src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
-/>
 
 ## Overview
 

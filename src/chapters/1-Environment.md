@@ -1,3 +1,8 @@
+<img
+style="height: 256px"
+src="https://wallpaperaccess.com/full/751560.jpg"
+/>
+
 # 1. Environment
 
 > A guide to frontend development with Visual Studio Code.

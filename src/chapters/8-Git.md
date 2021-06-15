@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+/>
+
 # 8. Git
 
 > A guide to frontend development with Visual Studio Code.
@@ -44,3 +50,14 @@ You should be aware of how to manage merge conflicts. These usually occur when t
 > - rebase
 > - cherry picking commits
 > - revert commit
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 9. Webpack](./9-Webpack.md)
+
+<br />
+<br />

@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="../assets/logos/webpack.png"
+/>
+
 # 9. Webpack
 
 > A guide to frontend development with Visual Studio Code.
@@ -16,6 +22,8 @@
 - [8. Git](./8-Git.md)
 - `9. Webpack`
 - [10. Development](./10-Development.md)
+
+## Overview
 
 > `webpack 5` runs on **Node.js** version `10.13.0+`.
 

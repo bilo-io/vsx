@@ -1,3 +1,9 @@
+<img
+style="height: 256px"
+height="256"
+src="https://cdn.iconscout.com/icon/free/png-256/css3-8-1175200.png"
+/>
+
 # 5. Styling
 
 > A guide to frontend development with Visual Studio Code.
