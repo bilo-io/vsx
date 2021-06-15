@@ -63,16 +63,42 @@ Depending on the project you will either use `npm` or `yarn` as the package mana
 
 ## Workflow
 
-- [Jira](https://www.atlassian.com/software/jira)
+If you are working in a team, it will be beneficial to use a software development methodology to manage your workflow.
+
+### [Scrum / Sprints](https://www.atlassian.com/agile/scrum/sprints)
+
+Scrum is a software development methodology, an organized process for a development team to build a system.
+
+Other, more common moethodologies include [Waterfall, Agile, Extreme Programming, Lean & Kan Ban](https://www.upwork.com/resources/most-common-software-development-methodologies?utm_source=google&utm_campaign=SEM_GGL_INTL_NonBrand_Marketplace_DSA&utm_medium=cpc&utm_content=113089129402&utm_term=&campaignid=11384804789&matchtype=b&device=c&gclid=CjwKCAjwn6GGBhADEiwAruUcKtkBsWWpJAKhhLHEEvIyQNKTI9YHydPaJCFGa7h-RwhwrT-As7zfbxoCdaEQAvD_BwE)
+
+_"Sprints make projects more manageable, allow teams to ship high-quality work faster and more frequently, and gives them more flexibility to adapt to change."_
+
+- Sprints often run in cycles of 1-4 weeks... typically 2 weeks.
+- There is standup every morning where you talk about
+  - what you **accomplished** the previous day
+  - what you **plan** to do on the current day
+  - any **blockers** you are experiencing
+- Every sprint you will have the following meetings once each:
+  - **Planning**: The tasks for the following sprint are planned and their effort is estimated
+  - **Review**: Anything you can show from the sprint
+  - **Retro**: How you felt about what was that sprint (pros, cons, areas of improvement)
+
+### [Jira](https://www.atlassian.com/software/jira)
 
 _"Jira Software is built for every member of your software team to plan,
 track, and release great software."_
+
+Things to know about:
+
+- [What is a user story](https://www.linkedin.com/pulse/what-user-story-dave-todaro/)
+- [Estimating Tasks](https://www.productplan.com/glossary/fibonacci-agile-estimation/)
 
 > We use Jira to track all programming related tasks
 
 ![Jira-preview](https://wac-cdn-2.atlassian.com/image/upload/f_auto,q_auto/dam/jcr:858144d1-e857-4ab8-8861-2a71112e7a37/JSW-tour-board.png?cdnVersion=1642)
 
-- [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 Git flow Workflow is a Git workflow that helps with continuous software development and implementing DevOps practices. This workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.
 

@@ -16,7 +16,7 @@
 
 <img
 style="height: 10rem; width: auto"
-src="https://cdn.freebiesupply.com/logos/large/2x/redux-logo-png-transparent.png"
+src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
 />
 
 ## Overview

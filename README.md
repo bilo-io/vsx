@@ -1,4 +1,4 @@
-# VSX
+# React frontend development Stack
 
 > A guide to frontend development with Visual Studio Code.
 >
@@ -13,6 +13,6 @@
 - [6. Storybook](./src/chapters/6-Storybook.md)
 - [7. Testing](./src/chapters/7-Testing.md)
 
-> The library of choice is React.js, created by Facebook.
+> The library of choice is [React.js](https://reactjs.org/), created by [a small team at Facebook](https://reactjs.org/community/team.html).
 
 ![react-dev](./src/assets/frontend-dev-react.jpeg)

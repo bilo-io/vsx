@@ -27,21 +27,14 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
 
 ### Fundamentals
 
+You should know the following fundamentals to be an effective JS developer.
+
 - `window`, `navigator`
 - `var`, `const`, `let`
 - `classes` and Arrow functions (e.g `() => {}`)
 - Double `==` vs Triple `===`
 - Spread operator `...`
-
 - Destructuring
-
-```diff
-- const email = user.email
-- const name = user.name
-
-+ const { email, name } = user;
-```
-
 - Array functions:
   - `forEach`
   - `map`,
@@ -49,6 +42,9 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
   - `findIndex`
   - `10_000` notation for numbers
   - `promises` and `async` / `await`
+
+- `async` & `await`
+- `Promises`
 
 ## Typescript
 
@@ -67,7 +63,8 @@ And some online Code Sandboxes for Typescript and React:
 
 ## NodeJS
 
-NodeJS is a Javascript runtime that runs without the browser. As such, you won't have access to browser specific things like `window`.
+[NodeJS](https://nodejs.org/en/) is a Javascript runtime that runs without the browser.
+As such, you won't have access to browser specific things like `window`, etc.
 
 - npm / yarn
 - node scripts

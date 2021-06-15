@@ -16,7 +16,7 @@
 
 <img
 style="height: 10rem; width: auto"
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+src="https://cdn.iconscout.com/icon/free/png-256/react-226053.png"
 />
 
 ## Overview
