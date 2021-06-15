@@ -3,16 +3,18 @@
 > A guide to frontend development with Visual Studio Code.
 >
 > - Back to the [README](../../README.md)
-> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Check out the [Guides](./guides/CryptoCharts.md)
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
-- [1. Setup Environment](./1-SetupEnvironment.md)
+- [1. Environment](./1-Environment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - `5. Styling`
 - [6. Storybook](./6-Storybook.md)
 - [7. Testing](./7-Testing.md)
+- [8. Git](./8-Git.md)
+- [9. Webpack](./9-Webpack.md)
 
 ## 1. Sass
 
@@ -37,8 +39,8 @@ src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png
 />
 
 
-Tailwind CSS is a utility-first CSS framework packed with classes like flex, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
-For the vast majority of styling we use [TailwindCSS](https://tailwindcss.com/), and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
+[TailwindCSS](https://tailwindcss.com/) is a utility-first CSS framework packed with classes like flex, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
+For the vast majority of styling we use TailwindCSS, and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
 
 > NOTE: Only in _very_ few occasions do we allow custom styles/classes.
 

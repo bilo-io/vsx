@@ -3,20 +3,24 @@
 > A guide to frontend development with Visual Studio Code.
 >
 > - Back to the [README](../../README.md)
-> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Check out the [Guides](./guides/CryptoCharts.md)
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
-- [1. Setup Environment](./1-SetupEnvironment.md)
+- [1. Environment](./1-Environment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
 - `7. Testing`
+- [8. Git](./8-Git.md)
+- [9. Webpack](./9-Webpack.md)
 
 ## Unit Tests
 
 UNIT TESTING is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers.
+
+![unit-test-gif](https://i2.wp.com/storage.googleapis.com/blog-images-backup/0*VrZeHrqiF-DiIQTa.gif?ssl=1)
 
 ### jest
 
@@ -31,7 +35,9 @@ E2E (end-to-end) tests help verify high-value paths in your application. In othe
 
 ### Cypress
 
-[Cypress](https://www.cypress.io/) is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing
+[Cypress](https://www.cypress.io/) is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing.
+
+![cypress-demo-gif](https://glebbahmutov.com/blog/images/powerful-cy-task/retry-ui.gif)
 
 ## Visual Regression Testing
 
@@ -42,5 +48,7 @@ There are [many tools](https://github.com/mojoaxel/awesome-regression-testing) t
 Storybook can be used for various different kinds of testing, using addons.
 
 - Visual regression
+
+![visual-regression](../assets/chapters/visual-regression-testing.png)
 
 - Accessibility

@@ -3,7 +3,7 @@
 > A guide to frontend development with Visual Studio Code.
 >
 > - Back to the [README](../../../README.md)
-> - Try out the [Assessment](../guides/CryptoCharts.md)
+> - Check out the [Guides](../guides/CryptoCharts.md)
 
 Writing clean, maintainable and re-usable code is very important for large (and even small) software projects.
 This section combines various sources to highlight important aspects we'd like to adhere to when writing code.

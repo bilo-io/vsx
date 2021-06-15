@@ -3,16 +3,18 @@
 > A guide to frontend development with Visual Studio Code.
 >
 > - Back to the [README](../../README.md)
-> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Check out the [Guides](./guides/CryptoCharts.md)
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
-- [1. Setup Environment](./1-SetupEnvironment.md)
+- [1. Environment](./1-Environment.md)
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - `4. Redux`
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
 - [7. Testing](./7-Testing.md)
+- [8. Git](./8-Git.md)
+- [9. Webpack](./9-Webpack.md)
 
 <img
 style="height: 10rem; width: auto"
