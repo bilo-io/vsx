@@ -1,24 +1,29 @@
-# 1. Setup Environment
+# 1. Environment
 
 > A guide to frontend development with Visual Studio Code.
 >
 > - Back to the [README](../../README.md)
-> - Try out the [Assessment](./guides/CryptoCharts.md)
+> - Check out the [Guides](./guides/CryptoCharts.md)
 > - Also check out [Appendices](./appendix/CodingStandards.md)
 
-- `1. Setup Environment`
+- `1. Environment`
 - [2. ES6, Typescript & NodeJS](./2-Javascript.md)
 - [3. React](./3-React.md)
 - [4. Redux](./4-Redux.md)
 - [5. Styling](./5-Styling.md)
 - [6. Storybook](./6-Storybook.md)
 - [7. Testing](./7-Testing.md)
+- [8. Git](./8-Git.md)
+- [9. Webpack](./9-Webpack.md)
 
 ![vs-code-logo](https://code.visualstudio.com/assets/favicon.ico)
 
 ## Editor
 
+There are various aspects to a development environment. First and foremost, your workstation... your Editor.
 If you have not installed a preferred editor yet, download [Visual Studio Code](https://code.visualstudio.com/download), as it is strongly recommended and the assumed editor throughout this guide.
+
+> NOTE: Here is a list of some [popular alternatives](https://hackr.io/blog/web-development-ide)
 
 <img
 alt="vscode"
@@ -38,6 +43,9 @@ src="../assets/assessment/0-vscode.png"
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 #### Git
+
+[Git](https://www.atlassian.com/git/tutorials/why-git) is used to manage and collaborate on the source code, (or any folder really).
+> More on this in the [Git Chapter](./8-Git.md)
 
 - [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
