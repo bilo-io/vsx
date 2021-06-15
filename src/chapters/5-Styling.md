@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 ## 1. Sass
 
@@ -72,3 +73,14 @@ const AnotherItem = ({ children }) => (
 ## References
 
 - [Tailwind CSS](https://tailwindcss.com/)
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 6. Storybook](./6-Storybook.md)
+
+<br />
+<br />

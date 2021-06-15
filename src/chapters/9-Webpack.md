@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - `9. Webpack`
+- [10. Development](./10-Development.md)
 
 > `webpack 5` runs on **Node.js** version `10.13.0+`.
 
@@ -67,3 +68,14 @@ By setting the mode parameter to either development, production or none, you can
 ### Browser Compatibility
 
 webpack supports all browsers that are ES5-compliant (IE8 and below are not supported). webpack needs Promise for import() and require.ensure(). If you want to support older browsers, you will need to load a polyfill before using these expressions.
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 10. Development](./10-Development.md)
+
+<br />
+<br />

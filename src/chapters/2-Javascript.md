@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 <img
 style="width: 256px"
@@ -84,3 +85,14 @@ As such, you won't have access to browser specific things like `window`, etc.
 ## Further Reading
 
 - [Appendix: Coding Standards](./appendix/CodingStandards.md)
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 3. React](./3-React.md)
+
+<br />
+<br />

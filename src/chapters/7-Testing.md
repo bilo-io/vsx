@@ -15,6 +15,7 @@
 - `7. Testing`
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 ## Unit Tests
 
@@ -52,3 +53,14 @@ Storybook can be used for various different kinds of testing, using addons.
 ![visual-regression](../assets/chapters/visual-regression-testing.png)
 
 - Accessibility
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 8. Git](./8-Git.md)
+
+<br />
+<br />

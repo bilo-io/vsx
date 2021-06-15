@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 <img
 style="height: 256px"
@@ -31,3 +32,14 @@ What is [Storybook](https://storybook.js.org/)?
 > - _"Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation."_
 > - _"Storybook provides a sandbox to build UIs in isolation so you can develop hard-to-reach states and edge cases."_
 > - _"Stories are a pragmatic, reproducible way to keep track of UI edge cases. Write stories once then reuse them to power automated tests."_
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 7. Testing](./7-Testing.md)
+
+<br />
+<br />

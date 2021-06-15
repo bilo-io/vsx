@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 ![vs-code-logo](https://code.visualstudio.com/assets/favicon.ico)
 
@@ -133,3 +134,14 @@ width="1024"
 style="width: 1024px"
 src="../assets/chapters/git-flow-no-fixes.png"
 />
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 2. ES6, Typescript & NodeJS](./2-Javascript.md)
+
+<br />
+<br />

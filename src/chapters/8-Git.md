@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - `8. Git`
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 ## Overview
 

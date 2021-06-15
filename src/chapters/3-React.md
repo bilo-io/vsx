@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 <img
 style="height: 10rem; width: auto"
@@ -100,3 +101,14 @@ Also make understand how these hooks work:
 
 - must know: `useState`, `useEffect`, `useContext`, `useRef`
 - secondary: `useLayoutEffect`, `useReducer`, `useMemo`, `useCallback`
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 4. React](./4-Redux.md)
+
+<br />
+<br />

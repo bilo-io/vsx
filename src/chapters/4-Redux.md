@@ -15,6 +15,7 @@
 - [7. Testing](./7-Testing.md)
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
+- [10. Development](./10-Development.md)
 
 <img
 style="height: 10rem; width: auto"
@@ -23,7 +24,7 @@ src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
 
 ## Overview
 
-Redux is a predictable state container for JavaScript apps.
+[Redux]() is a predictable state container for JavaScript apps.
 
 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
 
@@ -159,3 +160,14 @@ export const { increment, decrement, incrementByAmount } = slice.actions;
 ### References
 
 - [Redux Toolkit](https://redux-toolkit.js.org/)
+
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+[Next Part: 5. Styling](./5-Styling.md)
+
+<br />
+<br />
