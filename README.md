@@ -5,7 +5,7 @@
 > - Try out the [Assessment](./src/chapters/guides/CryptoCharts.md)
 > - Also check out [Appendices](./src/chapters/appendix/CodingStandards.md)
 
-- [1. Setup Environment](./src/chapters/1-SetupEnvironment.md)
+- [1. Setup Environment](./src/chapters/1-Environment.md)
 - [2. ES6, Typescript & NodeJS](./src/chapters/2-Javascript.md)
 - [3. React](./src/chapters/3-React.md)
 - [4. Redux](./src/chapters/4-Redux.md)
