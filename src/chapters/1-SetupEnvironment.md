@@ -14,13 +14,18 @@
 - [6. Storybook](./6-Storybook.md)
 - [7. Testing](./7-Testing.md)
 
-![vs-code-logo](https://www.tmssoftware.com/images/visualstudiocodelogo.png)
+![vs-code-logo](https://code.visualstudio.com/assets/favicon.ico)
 
 ## Editor
 
 If you have not installed a preferred editor yet, download [Visual Studio Code](https://code.visualstudio.com/download), as it is strongly recommended and the assumed editor throughout this guide.
 
-![vscode](../assets/assessment/0-vscode.png)
+<img
+alt="vscode"
+width="1024"
+style="width: 1024px"
+src="../assets/assessment/0-vscode.png"
+/>
 
 ### Recommended Plugins
 
@@ -73,6 +78,13 @@ Other, more common moethodologies include [Waterfall, Agile, Extreme Programming
 
 _"Sprints make projects more manageable, allow teams to ship high-quality work faster and more frequently, and gives them more flexibility to adapt to change."_
 
+<img
+alt="sprints"
+width="1024"
+style="width: 1024px"
+src="https://i.poweredtemplates.com/p/dg/08/065/ppt_slide_h_1.png"
+/>
+
 - Sprints often run in cycles of 1-4 weeks... typically 2 weeks.
 - There is standup every morning where you talk about
   - what you **accomplished** the previous day
@@ -95,11 +107,21 @@ Things to know about:
 
 > We use Jira to track all programming related tasks
 
-![Jira-preview](https://wac-cdn-2.atlassian.com/image/upload/f_auto,q_auto/dam/jcr:858144d1-e857-4ab8-8861-2a71112e7a37/JSW-tour-board.png?cdnVersion=1642)
+<img
+alt="Jira-preview"
+width="1024"
+style="width: 1024px"
+src="https://wac-cdn-2.atlassian.com/image/upload/f_auto,q_auto/dam/jcr:858144d1-e857-4ab8-8861-2a71112e7a37/JSW-tour-board.png?cdnVersion=1642"
+/>
 
 
 [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 Git flow Workflow is a Git workflow that helps with continuous software development and implementing DevOps practices. This workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.
 
-![git-flow](../assets/chapters/git-flow.png)
+<img
+alt="git-flow"
+width="1024"
+style="width: 1024px"
+src="../assets/chapters/git-flow-no-fixes.png"
+/>
