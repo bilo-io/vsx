@@ -12,9 +12,9 @@
 - [5. Styling](./src/chapters/5-Styling.md)
 - [6. Storybook](./src/chapters/6-Storybook.md)
 - [7. Testing](./src/chapters/7-Testing.md)
-- [8. Git](./8-Git.md)
-- [9. Webpack](./9-Webpack.md)
-- [10. Development](./10-Development.md)
+- [8. Git](./src/chapters/8-Git.md)
+- [9. Webpack](./src/chapters/9-Webpack.md)
+- [10. Development](./src/chapters/10-Development.md)
 
 > The library of choice is [React.js](https://reactjs.org/), created by [a small team at Facebook](https://reactjs.org/community/team.html).
 
