@@ -15,7 +15,8 @@
 - [7. Testing](./7-Testing.md)
 
 <img
-style="height: 10rem; width: auto"
+style="width: 256px"
+width="256"
 src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.png?1442839695"
 />
 
