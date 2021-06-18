@@ -30,7 +30,7 @@ This chapter outlines various aspects you should be aware of, regarding web deve
 
 **Frontend**
 
-Herewith we pretty much summarize the fundamentals of React frontend development, with modern technologies (again... at the time of writing).
+Herewith we pretty much summarize the fundamentals of React frontend development, with modern technologies (as of 2021).
 
 **Backend**
 
