@@ -30,7 +30,7 @@ style="height: 10rem; width: auto"
 src="https://cdn.iconscout.com/icon/free/png-256/sass-2752078-2284895.png"
 />
 
-[Sass](https://sass-lang.com/) (Syntastically Awesome Style Sheets) boasts more features and abilities than any other CSS extension language out there. It has been maintained by the Core team for over 14 years (as of 2021).
+[Sass](https://sass-lang.com/) (Syntactically Awesome Style Sheets) boasts more features and abilities than any other CSS extension language out there. It has been maintained by the Core team for over 14 years (as of 2021).
 
 > NOTES:
 >
@@ -46,7 +46,7 @@ src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png
 />
 
 
-[TailwindCSS](https://tailwindcss.com/) is a utility-first CSS framework packed with classes like flex, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
+[TailwindCSS](https://tailwindcss.com/) is a utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
 For the vast majority of styling we use TailwindCSS, and prefer that over inline or custom styles. There is also a `tailwind.config.js` with custom overrides.
 
 > NOTE: Only in _very_ few occasions do we allow custom styles/classes.
@@ -82,7 +82,7 @@ const AnotherItem = ({ children }) => (
 
 <br />
 <br />
-<hr />
+<br />
 <br />
 <br />
 
