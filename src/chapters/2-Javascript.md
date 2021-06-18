@@ -25,7 +25,7 @@ src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.
 
 ## ES6 (Javascript)
 
-Javascript is an implementation of ECMA script, which received many new updates since ES6.
+Javascript is an implementation of ECMA script, which has received many new updates since ES6.
 
 Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6features)
 
@@ -45,14 +45,12 @@ You should know the following fundamentals to be an effective JS developer.
   - `reduce`, `filter`, `find`,`some`,`every`
   - `findIndex`
   - `10_000` notation for numbers
-  - `promises` and `async` / `await`
-
 - `async` & `await`
 - `Promises`
 
 ## Typescript
 
-Microsoft created a superset of Javascript, which adds static type checking to the language, making it more predictable and thus safer to code.
+Microsoft created Typescript - a superset of Javascript which adds static type checking to the language. This makes Typescript more predictable than Javascript and thus safer to code with.
 
 > A similar alternative is [FlowType](https://flow.org/)
 
