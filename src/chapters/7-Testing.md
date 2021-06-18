@@ -25,11 +25,11 @@ src="https://api.nuget.org/v3-flatcontainer/vsunittesthelpers/1.0.0/icon"
 
 ## Unit Tests
 
-UNIT TESTING is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers.
+**Unit Testing** is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development (coding phase) of an application by the developers.
 
 ![unit-test-gif](https://i2.wp.com/storage.googleapis.com/blog-images-backup/0*VrZeHrqiF-DiIQTa.gif?ssl=1)
 
-### jest
+### Jest
 
 [Jest](https://jestjs.io/) is a unit testing library, which can be used to test individual bits of functionality in isolation.
 
@@ -42,7 +42,7 @@ E2E (end-to-end) tests help verify high-value paths in your application. In othe
 
 ### Cypress
 
-[Cypress](https://www.cypress.io/) is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing.
+[Cypress](https://www.cypress.io/) is a next generation front end testing tool built for the modern web. It addresses the key pain points developers and QA engineers face when testing.
 
 ![cypress-demo-gif](https://glebbahmutov.com/blog/images/powerful-cy-task/retry-ui.gif)
 
@@ -62,7 +62,7 @@ Storybook can be used for various different kinds of testing, using addons.
 
 <br />
 <br />
-<hr />
+<br />
 <br />
 <br />
 

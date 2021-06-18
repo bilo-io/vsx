@@ -27,7 +27,8 @@ src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
 
 [Why use Git?](https://www.atlassian.com/git/tutorials/why-git)
 
-## Extensions
+### Extensions
+Return to the [Environment](./1-Environment.md) section to see recommended git-specific extensions for VSCode.
 
 ![git-graph](https://ardalis.com/static/aac4622827ac44710e87e0d26a1df06f/a6d36/image-git-graph.png)
 
@@ -42,7 +43,7 @@ There are a variety of [different workflows](https://www.atlassian.com/git/tutor
 
 ### Managing conflicts
 
-You should be aware of how to manage merge conflicts. These usually occur when there were changes in your ****current_branch** (e.g. `feature/some-feature-name`) and the **target_branch** (e.g. `develop` or `master`).
+You should be aware of how to manage merge conflicts. These usually occur when there were changes in your **current_branch** (e.g. `feature/some-feature-name`) and the **target_branch** (e.g. `develop` or `master`).
 
 > TODO: expand on
 >
@@ -53,7 +54,7 @@ You should be aware of how to manage merge conflicts. These usually occur when t
 
 <br />
 <br />
-<hr />
+<br />
 <br />
 <br />
 
