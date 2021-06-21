@@ -1,5 +1,11 @@
-# React frontend development Stack
+# React Development in 2021
 
+<img
+alt="react-dev"
+src="./src/assets/frontend-dev-react.jpeg"
+style="height: 256px"
+height="256"
+/>
 > A guide to frontend development with Visual Studio Code.
 >
 > - Try out the [Assessment](./src/chapters/guides/CryptoCharts.md)
@@ -16,6 +22,4 @@
 - [9. Webpack](./src/chapters/9-Webpack.md)
 - [10. Development](./src/chapters/10-Development.md)
 
-> The library of choice is [React.js](https://reactjs.org/), created by [a small team at Facebook](https://reactjs.org/community/team.html).
-
-![react-dev](./src/assets/frontend-dev-react.jpeg)
+> The library of choice is [React.js](https://reactjs.org/), created by [a small team at Facebook](https://reactjs.org/community/team.html)

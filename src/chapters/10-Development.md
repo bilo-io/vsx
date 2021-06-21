@@ -28,6 +28,8 @@ src="https://i.pinimg.com/originals/d3/81/2e/d3812ec68e76e334b4ab1cb8884169a7.gi
 
 This chapter outlines various aspects you should be aware of, regarding web development.
 
+![Frontend-vs-Backend](../assets/chapters/front-vs-backend-arch-diagram2.png)
+
 **Frontend**
 
 Herewith we pretty much summarize the fundamentals of React frontend development, with modern technologies (again... at the time of writing).
