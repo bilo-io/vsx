@@ -33,20 +33,20 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
 
 You should know the following fundamentals to be an effective JS developer.
 
-- `window`, `navigator`
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window), [`navigator`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator)
 - `var`, `const`, `let`
-- `classes` and Arrow functions (e.g `() => {}`)
-- Double `==` vs Triple `===`
-- Spread operator `...`
-- Destructuring
-- Array functions:
+- `classes` and [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (e.g `() => {}`)
+- [Double `==` vs Triple `===`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [Spread operator `...`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Array functions:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#)
   - `forEach`
   - `map`,
-  - `reduce`, `filter`, `find`,`some`,`every`
+  - `reduce`, `filter`, `find`, `some`, `every`
   - `findIndex`
-  - `10_000` notation for numbers
-- `async` & `await`
-- `Promises`
+- `10_000` notation for numbers
+- [`async` & `await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [`Promises`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ## Typescript
 
