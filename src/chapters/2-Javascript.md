@@ -23,6 +23,13 @@ src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
 
+## Recommended Plugins
+
+To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
+
+[Full list of recommended plugins.](./appendix/Extensions.md)
+
+- [Node Essentials](https://marketplace.visualstudio.com/items?itemName=afractal.node-essentials)
 ## ES6 (Javascript)
 
 Javascript is an implementation of ECMA script, which has received many new updates since ES6.

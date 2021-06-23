@@ -23,12 +23,18 @@ src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
 
+## Recommended Plugins
+
+To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
+
+[Full list of recommended plugins.](./appendix/Extensions.md)
+
+- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [Git Flow](https://marketplace.visualstudio.com/items?itemName=PsykoSoldi3r.vscode-git-flow)
 ## Overview
 
 [Why use Git?](https://www.atlassian.com/git/tutorials/why-git)
-
-### Extensions
-Return to the [Environment](./1-Environment.md) section to see recommended git-specific extensions for VSCode.
 
 ![git-graph](https://ardalis.com/static/aac4622827ac44710e87e0d26a1df06f/a6d36/image-git-graph.png)
 

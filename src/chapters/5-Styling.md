@@ -22,7 +22,14 @@ src="https://cdn.iconscout.com/icon/free/png-256/css3-8-1175200.png"
 - [8. Git](./8-Git.md)
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
+## Recommended Plugins
 
+To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
+
+[Full list of recommended plugins.](./appendix/Extensions.md)
+
+- [color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 ## 1. Sass
 
 <img

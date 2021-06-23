@@ -22,8 +22,17 @@ src="https://wallpaperaccess.com/full/751560.jpg"
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
 
-![vs-code-logo](https://code.visualstudio.com/assets/favicon.ico)
+## Recommended Plugins
 
+To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
+
+[Full list of recommended plugins.](./appendix/Extensions.md)
+
+- [VSCode Essentials](https://marketplace.visualstudio.com/items?itemName=jabacchetta.vscode-essentials)
+- [Tabnine Autocomplete AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+![vs-code-logo](https://code.visualstudio.com/assets/favicon.ico)
 ## Editor
 
 There are various aspects to a development environment. One of the most important is your workstation - your Editor.
@@ -37,27 +46,6 @@ width="1024"
 style="width: 1024px"
 src="../assets/assessment/0-vscode.png"
 />
-
-### Recommended Plugins
-
-To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
-
-#### General Plugins
-
-- [VSCode Essentials](https://marketplace.visualstudio.com/items?itemName=jabacchetta.vscode-essentials)
-- [Node Essentials](https://marketplace.visualstudio.com/items?itemName=afractal.node-essentials)
-- [Tabnine Autocomplete AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-- [color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-#### Git-specific Plugins
-
-[Git](https://www.atlassian.com/git/tutorials/why-git) is used to manage and collaborate on source code.
-> More on this in the [Git Chapter](./8-Git.md)
-
-- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-- [Git Flow](https://marketplace.visualstudio.com/items?itemName=PsykoSoldi3r.vscode-git-flow)
 
 ## Env
 
