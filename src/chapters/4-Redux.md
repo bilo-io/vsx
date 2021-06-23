@@ -163,7 +163,7 @@ export const { increment, decrement, incrementByAmount } = slice.actions;
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

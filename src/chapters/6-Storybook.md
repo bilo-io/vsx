@@ -35,7 +35,7 @@ What is [Storybook](https://storybook.js.org/)?
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

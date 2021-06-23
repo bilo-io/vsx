@@ -79,7 +79,7 @@ Webpack supports all browsers that are ES5-compliant (IE8 and below are not supp
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

@@ -105,7 +105,7 @@ Also make understand how these hooks work:
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

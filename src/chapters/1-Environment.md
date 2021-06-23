@@ -143,7 +143,7 @@ src="../assets/chapters/git-flow-no-fixes.png"
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

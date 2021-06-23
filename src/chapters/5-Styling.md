@@ -82,7 +82,7 @@ const AnotherItem = ({ children }) => (
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

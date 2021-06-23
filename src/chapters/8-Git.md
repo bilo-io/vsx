@@ -54,7 +54,7 @@ You should be aware of how to manage merge conflicts. These usually occur when t
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 

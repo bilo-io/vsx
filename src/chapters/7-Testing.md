@@ -62,7 +62,7 @@ Storybook can be used for various different kinds of testing, using addons.
 
 <br />
 <br />
-<br />
+<hr />
 <br />
 <br />
 
