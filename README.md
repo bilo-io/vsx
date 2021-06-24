@@ -8,7 +8,7 @@ height="256"
 />
 > A guide to frontend development with Visual Studio Code.
 >
-> - Try out the [Assessment](./src/chapters/guides/CryptoCharts.md)
+> - Check out the [Guides](./src/chapters/guides/CryptoCharts.md)
 > - Also check out [Appendices](./src/chapters/appendix/CodingStandards.md)
 
 - [1. Setup Environment](./src/chapters/1-Environment.md)
