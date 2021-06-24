@@ -6,6 +6,7 @@ src="./src/assets/frontend-dev-react.jpeg"
 style="height: 256px"
 height="256"
 />
+
 > A guide to frontend development with Visual Studio Code.
 >
 > - Check out the [Guides](./src/chapters/guides/CryptoCharts.md)
