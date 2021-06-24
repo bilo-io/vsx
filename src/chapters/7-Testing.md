@@ -1,7 +1,7 @@
 <img
 style="height: 256px"
 height="256"
-src="https://api.nuget.org/v3-flatcontainer/vsunittesthelpers/1.0.0/icon"
+src="https://www.pngkit.com/png/full/302-3020295_icon-easy-to-manage-icon.png"
 />
 
 # 7. Testing
