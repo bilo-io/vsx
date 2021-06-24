@@ -73,7 +73,11 @@ const Item = ({ children }) => (
 )
 ```
 
-Another example where you set the div on different resolutions (e.g. mobile is full width, medium screens are half width, and on large+ screens the width is 1/3 of the max width).
+Below is an example where you set the `<div />` on different resolutions.
+The following rules are applied from left to right, with the respective breakpoints (screen sizes):
+- Mobile (`xss`+) and above is full width (`w-full`)
+- Small (`sm`+) screens are half width (`sm:w-1/2`), 
+- Large (`lg`+) screens are the width is 1/3 of the max relative width (`lg:w-1/3`)).
 
 ```jsx
 const AnotherItem = ({ children }) => (
