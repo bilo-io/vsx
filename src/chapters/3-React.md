@@ -81,6 +81,10 @@ const App = () => {
 - [Code Sandbox](https://codesandbox.io/s/react-ts?utm_source=dotnew)
 - [Custom webpack config](https://www.freecodecamp.org/news/learn-webpack-for-react-a36d4cac5060/)
 
+## React DevTools
+
+Download the [React DevTools Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) for your browser.
+
 ## Core Principles
 
 While you should have covered the [Main Concepts](https://reactjs.org/docs/hello-world.html) section of the official React docs, you should definitely make sure to understand and embrace the following sub sections:

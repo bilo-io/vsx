@@ -26,7 +26,7 @@ src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png"
 
 [Redux]() is a predictable state container for JavaScript apps.
 
-It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
+It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time-travelling debugger.
 
 You can use Redux together with React, or with any other view library. It is tiny (2kB, including dependencies), but has a large ecosystem of addons available.
 
@@ -86,7 +86,7 @@ const initialState = {
 
 ## Redux DevTools
 
-[Download Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for your browser to make debugging easier.
+Download the [Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for your browser to make debugging easier.
 
 ![redux-devtools](https://adamfolwarczny.com/img/github/redux-devtools-app-demo.png)
 
@@ -113,21 +113,21 @@ Redux Toolkit includes these APIs:
 |Function|Info|
 |:-|:-|
 |`configureStore`:| wraps createStore to provide simplified configuration options and good defaults. It can automatically combine your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk by default, and enables use of the Redux DevTools Extension.|
-|`createReducer`:| that lets you supply a lookup table of action types to case reducer functions, rather than writing switch statements. In addition, it automatically uses the immer library to let you write simpler immutable updates with normal mutative code, like state.todos[3].completed = true.|
-|`createAction`:| generates an action creator function for the given action type string. The function itself has toString() defined, so that it can be used in place of the type constant.|
+|`createReducer`:| lets you supply a lookup table of action types to case reducer functions, rather than writing switch statements. In addition, it automatically uses the [immer](https://immerjs.github.io/immer/) library to let you write simpler immutable updates with normal mutative code, like `state.todos[3].completed = true`.|
+|`createAction`:| generates an action creator function for the given action type string. The function itself has `toString()` defined, so that it can be used in place of the type constant.|
 |`createSlice`:| accepts an object of reducer functions, a slice name, and an initial state value, and automatically generates a slice reducer with corresponding action creators and action types.|
 |`createAsyncThunk`:| accepts an action type string and a function that returns a promise, and generates a thunk that dispatches pending/fulfilled/rejected action types based on that promise.|
-|`createEntityAdapter`:| generates a set of reusable reducers and selectors to manage normalized data in the store|
+|`createEntityAdapter`:| generates a set of reusable reducers and selectors to manage normalized data in the store.|
 |`createSelector`| utility from the Reselect library, re-exported for ease of use.|
 
 ### Getting Started
 
-> If you want a more comprehensive guide to understand redux toolkit, see here
+> More comprehensive guides to Redux Toolkit:
 
 - [Redux Toolkit Quick Start](https://redux-toolkit.js.org/tutorials/quick-start)
 - [Redux Toolkit with Typescript](https://redux-toolkit.js.org/usage/usage-with-typescript)
 
-> NOTE: Redux Toolkit is already written in TypeScript, so its TS type definitions are built in... so you won't have to `yarn add @types/@redux/toolkit` or anything like that
+> NOTE: Redux Toolkit is already written in TypeScript, so its TS type definitions are built in. You won't have to run `yarn add @types/@redux/toolkit` (or anything like that).
 
 ```jsx
 import { createSlice } from '@reduxjs/toolkit';
@@ -142,7 +142,7 @@ export const slice = createSlice({
       // Redux Toolkit allows us to write "mutating" logic in reducers. It
       // doesn't actually mutate the state because it uses the immer library,
       // which detects changes to a "draft state" and produces a brand new
-      // immutable state based off those changes
+      // immutable state based on those changes
       state.value += 1;
     },
     decrement: state => {

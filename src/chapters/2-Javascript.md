@@ -23,9 +23,16 @@ src="https://s3.amazonaws.com/clarityfm-production/attachments/6604/default/es6.
 - [9. Webpack](./9-Webpack.md)
 - [10. Development](./10-Development.md)
 
+## Recommended Plugins
+
+To install these plugins, follow the hyperlinks or search for these extensions in the Visual Studio Code extensions tab.
+
+[Full list of recommended plugins.](./appendix/Extensions.md)
+
+- [Node Essentials](https://marketplace.visualstudio.com/items?itemName=afractal.node-essentials)
 ## ES6 (Javascript)
 
-Javascript is an implementation of ECMA script, which received many new updates since ES6.
+Javascript is an implementation of ECMA script, which has received many new updates since ES6.
 
 Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6features)
 
@@ -33,26 +40,24 @@ Reference: [full list of ES6 language updates](https://github.com/lukehoban/es6f
 
 You should know the following fundamentals to be an effective JS developer.
 
-- `window`, `navigator`
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window), [`navigator`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator)
 - `var`, `const`, `let`
-- `classes` and Arrow functions (e.g `() => {}`)
-- Double `==` vs Triple `===`
-- Spread operator `...`
-- Destructuring
-- Array functions:
+- `classes` and [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (e.g `() => {}`)
+- [Double `==` vs Triple `===`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [Spread operator `...`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Array functions:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#)
   - `forEach`
   - `map`,
-  - `reduce`, `filter`, `find`,`some`,`every`
+  - `reduce`, `filter`, `find`, `some`, `every`
   - `findIndex`
-  - `10_000` notation for numbers
-  - `promises` and `async` / `await`
-
-- `async` & `await`
-- `Promises`
+- `10_000` notation for numbers
+- [`async` & `await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [`Promises`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ## Typescript
 
-Microsoft created a superset of Javascript, which adds static type checking to the language, making it more predictable and thus safer to code.
+Microsoft created Typescript - a superset of Javascript which adds static type checking to the language. This makes Typescript more predictable than Javascript and thus safer to code with.
 
 > A similar alternative is [FlowType](https://flow.org/)
 
